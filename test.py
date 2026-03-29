@@ -63,3 +63,4 @@ if __name__ == '__main__':
     mse = np.sqrt(np.mean(np.square(epoch_res)))
     mae = np.mean(np.abs(epoch_res))
     print(f'Test, MAE:{mae}, MSE:{mse}')
+
