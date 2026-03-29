@@ -157,3 +157,4 @@ class ImgTxtFusion(nn.Module):
 
         return txt_feat_.squeeze(1), img_feat.transpose(1, 2).reshape(B, -1, H, W)
 
+
